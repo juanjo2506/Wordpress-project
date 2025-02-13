@@ -1,0 +1,569 @@
+.custom-heading {
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: black;
+    position: relative; 
+    display: inline-block;
+    padding-bottom: 8px;
+    width: 80%;
+  }
+  #mobile-menu {
+    margin-top: 80px;
+    left: 0;
+    z-index: 1000;
+ 
+}
+
+
+
+  .custom-heading::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 75%;
+    height: 8px; 
+   
+    background-color: #facc15; 
+    filter: blur(1px); 
+    transform: skewX(-10deg); 
+  }
+  .main-content{
+    margin-top: 70px;
+    padding: 50px;
+
+  }
+
+  .customimg{
+    width: 100%;
+    height: 100%;
+  }
+
+  .imgDiv{
+    width: 45%;
+    height: 650px;
+  }
+
+  /* Estilo base de la lista */
+.custom-list {
+    margin-top: 1.5rem;
+    color: #374151; 
+    list-style: none; 
+    padding: 0;
+    width: 100%;
+    margin-left: 0 !important;
+}
+
+
+.custom-list li {
+    display: flex;
+    gap: 8px; 
+    font-size: 1rem; 
+}
+
+
+.custom-list li::before {
+    content: "✔"; 
+    color: #facc15; 
+    font-weight: bold;
+    font-size: 1.2rem; 
+}
+.emailinput{
+    width: 70%;
+}
+
+.custombutton{
+    background-color: #7b69e9;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.custombutton:hover{
+    background-color: white;
+    color: #7b69e9;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 16px;
+    padding-left: 15px;
+  
+}
+.divInputEmail{
+    width: 85%;
+    margin-top: 3rem;
+}
+
+
+.companies{
+    background-color: #f7f6f3;
+    padding: 100px;
+}
+.companies h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+
+.div-marketing-img{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.marketing-img{
+    width: 20%;
+    padding: 15px 40px;
+    height: 80px;
+}
+.marquee {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 40px;
+    animation: marquee-scroll 15s linear infinite;
+    width: max-content;
+}
+
+@keyframes marquee-scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.marketing-img {
+    width: 250px;
+
+}
+
+.Learn{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-top: 100px;
+}
+.Real-world{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.posts{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.post{
+    width: 40%;
+    border: 1px solid rgba(196, 196, 196, 0.639);
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.post:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15) !important;
+}
+.post-thumbnail{
+    width: 60%;
+    align-self: center;
+    padding: 10px 10px;
+ 
+}
+
+.post-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.card{
+    padding: 10px;
+    width: 40%;
+    border-left: 1px solid rgba(196, 196, 196, 0.639) ;
+    background-color:#7b69e9 ;
+    color: white;
+    
+}
+
+
+/* Footer */
+.site-footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f6f3;
+    padding: 40px;
+}
+
+.social_media{
+    display: flex;
+    place-content: space-around;
+}
+
+.section{
+    width: 70%;
+    padding-left: 20px;
+
+}
+.section2{
+    width: 30%;
+    padding: 10px;
+   
+}
+.section2 h2{
+    width: 100%;
+    font-weight: bold;
+    padding: 15px;
+   
+}
+
+.main-hero{
+    display: flex;
+   
+}
+
+.Logo-social{
+    padding: 10px;
+    width: 40%;
+    
+}
+.Logo-social img{
+    padding-bottom: 20px;
+}
+
+.information{
+    padding: 10px;
+    width: 20%;
+    text-align: left;
+}
+.information h2{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.information ul{
+    list-style: none;
+    margin-left: 0;
+}
+.email{
+    padding: 10px;
+    width: 30%;
+    text-align: left;
+}
+.email h2{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.divInputEmail2{
+    width: 85%;
+    margin-top: 0;
+    background-color: #f7f6f3;
+    padding-left: 0;
+    
+}
+
+.main-hero2 h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.copyright{
+    margin-top: 85px;
+}
+.small-logo{
+    max-width: 40px;
+    padding: 5px;
+}
+.juanjo{
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+.juanjo h2{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+    
+}
+.logos {
+    
+    display: flex;
+    position: absolute;
+    top: 0;   
+    right: 0; 
+}
+
+.juanjoImg{
+    width: 50%;
+}
+
+main{
+    padding-top: 30px;
+    width: 100%;
+}
+
+.city{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+
+@media (max-width: 1250px) {
+   
+    .card {
+        
+        width: 60%;
+       
+    }
+
+}
+@media (max-width: 1150px) {
+   
+    .divEmail2{
+        flex-direction: column;
+        
+    }
+    .divEmail2 input{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+   
+
+}
+@media (max-width: 1100px) {
+    .main-content{
+        padding: 35px;
+    }
+    .imgDiv {
+        width: 90%;
+        height: auto;
+    }
+
+    .custom-heading {
+        width: 90%;
+    }
+  
+    .main-logo {
+        width: 30%;
+
+    }
+    .home{
+        font-size: 0.9rem;
+    }
+
+    .section {
+        width: 60%; 
+    }
+    .section2 {
+        width: 40%;
+    }
+    .main-hero {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .Logo-social,
+    .information,
+    .email {
+        width: 100%;
+        text-align: center;
+    }
+  
+
+}
+@media (max-width: 900px) {
+    
+    .main-logo {
+        width: 25%;
+        
+
+    }
+   
+    
+   
+
+}
+
+/*Media Query para Tablets */
+@media (max-width: 800px) {
+
+     
+    .card {
+        
+        width: 70%;
+       
+    }
+
+    .main-content {
+        flex-direction: column; 
+        padding: 30px;
+    }
+
+    .imgDiv {
+        width: 90%;
+        height: auto;
+    }
+
+    .custom-heading {
+        font-size: 1.8rem; 
+        width: 100%;
+    }
+
+    .custom-heading::after {
+        width: 50%;
+    }
+
+    .divEmail2{
+        flex-direction: column;
+        
+    }
+    .divEmail2 input{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .imgDiv {
+        display: none;
+     }
+
+     .site-footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .section,
+    .section2 {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .main-hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Logo-social,
+    .information,
+    .email {
+        width: 100%;
+        text-align: center;
+    }
+    .juanjo {
+        padding: 15px; 
+    }
+    .logos {
+        position: relative; 
+        justify-content: center;
+    }
+}
+
+@media (max-width: 766px) {
+    
+    .imgDiv {
+       display: none;
+    }
+    .divEmail2{
+        flex-direction: column;
+        
+    }
+    .divInputEmail{
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .main-content {
+        align-self: center;
+    }
+    .divEmail2 input{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .customimg{
+        display: none;
+    }
+    .posts {
+        display: flex;
+        flex-wrap: nowrap; 
+        overflow-x: auto;
+        scroll-snap-type: x mandatory; 
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .post {
+        flex: 0 0 80%;
+        max-width: none; 
+        scroll-snap-align: start; 
+    }
+
+    .card {
+        width: 100%; 
+        border-left: none; 
+    }
+
+    .post-thumbnail {
+        width: 100%; 
+        text-align: center;
+    }
+    .main-logo {
+
+    width: 60%;
+       
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query para 500px (móviles) */
+@media screen and (max-width: 500px) {
+    .site-footer {
+        padding: 15px;
+    }
+    .section,
+    .section2 {
+        text-align: center;
+        padding: 10px;
+    }
+    .main-hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Logo-social,
+    .information,
+    .email {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+    .email h2 {
+        font-size: 1.2rem;
+    }
+    .copyright {
+        margin-top: 30px; 
+        text-align: center;
+    }
+    .small-logo {
+        max-width: 30px;
+    }
+}
